@@ -14,9 +14,9 @@ const features = [
 ];
 
 const versions = [
-  { name: "BTMob v4.0", price: "$10", description: "Standard version with all core features." },
-  { name: "BTMob v4.1", price: "$25", description: "with source code + Build Tutorial + video" },
-  { name: "BTMob v4.2 (Chinese)", price: "Contact", description: "Specialized version for Asian markets." }
+  { name: "BTMob v4.1", price: "$10", description: "Standard version with source code + setup video." },
+  { name: "BTMob v4.5.5", price: "$25", description: "Advanced version with source code + build tutorial + video." },
+  { name: "BTMob v4.5.7", price: "$50", description: "Premium version with advanced features and priority support." }
 ];
 
 const showcaseImages = [
@@ -152,16 +152,6 @@ export default function Home() {
         </div>
       </section>
 
-      
-      {/* Auto-Generated SEO Update: 6/7/2026, 5:46:33 AM */}
-      <section style={{ padding: '2rem 0', background: 'rgba(0, 255, 136, 0.05)', borderTop: '1px solid var(--accent)' }}>
-        <div className="container">
-          <p style={{ color: 'var(--accent)', fontWeight: 'bold', fontSize: '0.9rem' }}>
-            [LIVE UPDATE]: Security Report: BTMob now bypasses the latest Android 14 security patches with advanced stealth mode.
-          </p>
-        </div>
-      </section>
-
       {/* Footer */}
       <footer style={{ padding: '4rem 0', borderTop: '1px solid var(--glass-border)', textAlign: 'center' }}>
         <div className="container">
@@ -242,7 +232,7 @@ export default function Home() {
             "operatingSystem": "Android",
             "applicationCategory": "SecurityApplication",
             "downloadUrl": "https://t.me/Senzme",
-            "softwareVersion": "4.1.2",
+            "softwareVersion": "4.5.7",
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "4.9",
@@ -267,17 +257,17 @@ export default function Home() {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://btmob.vercel.app"
+              "item": "https://btmob-rat.vercel.app"
             },{
               "@type": "ListItem",
               "position": 2,
               "name": "Android Tools",
-              "item": "https://btmob.vercel.app/tools"
+              "item": "https://btmob-rat.vercel.app/tools"
             },{
               "@type": "ListItem",
               "position": 3,
               "name": "BTMob RAT",
-              "item": "https://btmob.vercel.app"
+              "item": "https://btmob-rat.vercel.app"
             }]
           })
         }}

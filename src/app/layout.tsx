@@ -13,15 +13,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://btmob.vercel.app'),
+  metadataBase: new URL('https://btmob-rat.vercel.app'),
   title: "BTMob - The Ultimate Android Remote Administration Tool (RAT)",
   verification: {
     google: "AMpzaRLTUr4-a9GtF4WgWxbMf3QNSLWxeMpkxsAoDwI",
   },
-  description: "Securely manage and monitor Android devices with BTMob. Advanced features including screen control, file management, and real-time alerts. BTMob v4.1.2 available now.",
+  description: "Securely manage and monitor Android devices with BTMob. Advanced features including screen control, file management, and real-time alerts. BTMob v4.5.7 available now.",
   keywords: [
     "BTMob", "BTMob RAT", "BTMob Android", "BTMob Download", "BTMob Source Code", 
-    "Android Remote Access Trojan", "BTMob V4.1", "BTMob Senzme", "BTMob Setup",
+    "Android Remote Access Trojan", "BTMob V4.5.7", "BTMob Senzme", "BTMob Setup",
     "Best Android RAT", "Mobile Security Tool", "Android Monitoring App",
     "BTMob 2026", "BTMob Free", "BTMob Crack"
   ],
@@ -29,10 +29,10 @@ export const metadata: Metadata = {
     title: "BTMob - Advanced Android RAT",
     description: "The most powerful Android remote access tool for professional administration.",
     type: "website",
-    url: "https://btmob.vercel.app",
+    url: "https://btmob-rat.vercel.app",
   },
   alternates: {
-    canonical: "https://btmob.vercel.app",
+    canonical: "https://btmob-rat.vercel.app",
   }
 };
 

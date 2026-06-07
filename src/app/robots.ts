@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://btmob.vercel.app/sitemap.xml',
+    sitemap: 'https://btmob-rat.vercel.app/sitemap.xml',
   };
 }
