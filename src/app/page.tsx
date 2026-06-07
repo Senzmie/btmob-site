@@ -46,9 +46,38 @@ export default function Home() {
             <a href="https://t.me/Senzme" className="btn-primary">Buy Source Code</a>
             <a href="#showcase" className="btn-secondary">View Interface</a>
           </div>
+        </div>
+      </section>
 
+      {/* Pricing / Versions */}
+      <section style={{ padding: '3rem 0', background: 'rgba(255,255,255,0.01)' }}>
+        <div className="container">
+          <h2 style={{ fontSize: '2.5rem', textAlign: 'center', marginBottom: '4rem' }}>
+            Available <span className="gradient-text">Versions & Cheap Price Packages</span>
+          </h2>
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+            gap: '2rem',
+            marginBottom: '4rem'
+          }}>
+            {versions.map((v, i) => (
+              <div key={i} className="glass-card" style={{ textAlign: 'center' }}>
+                <h3 style={{ fontSize: '1.5rem', marginBottom: '0.5rem' }}>{v.name}</h3>
+                <div style={{ fontSize: '2rem', fontWeight: '900', color: 'var(--accent)', marginBottom: '1rem' }}>{v.price}</div>
+                <p style={{ color: '#aaa', marginBottom: '2rem' }}>{v.description}</p>
+                <a href="https://t.me/Senzme" className="btn-secondary" style={{ width: '100%' }}>Order Now</a>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Hero Part 2: Feature simulation + Mockup */}
+      <section style={{ paddingBottom: '5rem', textAlign: 'center' }}>
+        <div className="container">
           {/* Authority Simulation (Next Level SEO) */}
-          <div style={{ opacity: 0.4, marginTop: '4rem' }}>
+          <div style={{ opacity: 0.4, marginTop: '2rem' }}>
             <p style={{ fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '2px', marginBottom: '1.5rem' }}>As Featured In</p>
             <div style={{ display: 'flex', justifyContent: 'center', gap: '3rem', flexWrap: 'wrap', filter: 'grayscale(100%) brightness(200%)' }}>
               <span style={{ fontWeight: '900', fontSize: '1.2rem' }}>TechCrunch</span>
@@ -58,7 +87,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="glass-card" style={{ padding: '0.5rem', maxWidth: '1000px', margin: '0 auto', overflow: 'hidden' }}>
+          <div className="glass-card" style={{ padding: '0.5rem', maxWidth: '1000px', margin: '0 auto', overflow: 'hidden', marginTop: '4rem' }}>
             <img
               src="https://github.com/user-attachments/assets/6c522073-7156-482d-9d4b-0b4cd45adaaa"
               alt="BTMob Dashboard"
@@ -117,29 +146,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Pricing / Versions */}
-      <section style={{ background: 'rgba(255,255,255,0.02)' }}>
-        <div className="container">
-          <h2 style={{ fontSize: '2.5rem', textAlign: 'center', marginBottom: '4rem' }}>
-            Available <span className="gradient-text">Versions & Cheap Price Packages</span>
-          </h2>
-          <div style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-            gap: '2rem'
-          }}>
-            {versions.map((v, i) => (
-              <div key={i} className="glass-card" style={{ textAlign: 'center' }}>
-                <h3 style={{ fontSize: '1.5rem', marginBottom: '0.5rem' }}>{v.name}</h3>
-                <div style={{ fontSize: '2rem', fontWeight: '900', color: 'var(--accent)', marginBottom: '1rem' }}>{v.price}</div>
-                <p style={{ color: '#aaa', marginBottom: '2rem' }}>{v.description}</p>
-                <a href="https://t.me/Senzme" className="btn-secondary" style={{ width: '100%' }}>Order Now</a>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Other Products */}
       <section style={{ padding: '4rem 0' }}>
         <div className="container" style={{ textAlign: 'center' }}>
@@ -149,16 +155,6 @@ export default function Home() {
             <p style={{ color: '#aaa', fontSize: '0.9rem', marginBottom: '1rem' }}>Advanced surveillance & forensics tool.</p>
             <a href="https://t.me/Senzme" style={{ color: 'var(--accent)', textDecoration: 'none', fontWeight: '700' }}>Inquire Now →</a>
           </div>
-        </div>
-      </section>
-
-      
-      {/* Auto-Generated SEO Update: 6/7/2026, 10:18:24 AM */}
-      <section style={{ padding: '2rem 0', background: 'rgba(0, 255, 136, 0.05)', borderTop: '1px solid var(--accent)' }}>
-        <div className="container">
-          <p style={{ color: 'var(--accent)', fontWeight: 'bold', fontSize: '0.9rem' }}>
-            [LIVE UPDATE]: New Guide: Learn how to setup BTMob on any VPS server in less than 5 minutes.
-          </p>
         </div>
       </section>
 
