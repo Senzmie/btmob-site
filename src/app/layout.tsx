@@ -23,7 +23,10 @@ export const metadata: Metadata = {
     "BTMob", "BTMob RAT", "BTMob Android", "BTMob Download", "BTMob Source Code", 
     "Android Remote Access Trojan", "BTMob V4.5.7", "BTMob Senzme", "BTMob Setup",
     "Best Android RAT", "Mobile Security Tool", "Android Monitoring App",
-    "BTMob 2026", "BTMob Free", "BTMob Crack"
+    "BTMob 2026", "BTMob Free", "BTMob Crack", "free btmob", "btmob free download",
+    "free btmob rat", "free android rat download", "btmob rat free", "download btmob free",
+    "cheap btmob", "btmob cheap price", "cheap android rat", "cheap price remote access trojan",
+    "affordable android rat"
   ],
   openGraph: {
     title: "BTMob - Advanced Android RAT",
