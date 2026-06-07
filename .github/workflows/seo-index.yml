@@ -1,0 +1,42 @@
+name: Automated SEO Content Factory
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 */2 * *' # Runs every 2 days at midnight
+
+permissions:
+  contents: write # Allows the action to push code back to your repo
+
+jobs:
+  auto-update-and-ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run Auto-Update Script
+        run: node scripts/update-seo-content.js
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "BTMob SEO Bot"
+          git config --global user.email "seo-bot@btmob.com"
+          git add src/app/page.tsx
+          git commit -m "Automated SEO Update: $(date +'%Y-%m-%d %H:%M')" || echo "No changes to commit"
+          git push origin main
+
+      - name: Ping Search Engines
+        run: |
+          echo "Pinging Google for https://btmob-rat.vercel.app/sitemap.xml"
+          curl "https://www.google.com/ping?sitemap=https://btmob-rat.vercel.app/sitemap.xml"
+          
+          echo "Pinging Bing for https://btmob-rat.vercel.app/sitemap.xml"
+          curl "https://www.bing.com/ping?sitemap=https://btmob-rat.vercel.app/sitemap.xml"
