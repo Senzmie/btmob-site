@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://btmob-rat.vercel.app'),
   title: "BTMob - The Ultimate Android Remote Administration Tool (RAT)",
   verification: {
-    google: "AMpzaRLTUr4-a9GtF4WgWxbMf3QNSLWxeMpkxsAoDwI",
+    google: "YHYHsGd30tLwk8xkOiKljFj2pxpod-6X81NhCm650ks",
   },
   description: "Securely manage and monitor Android devices with BTMob. Advanced features including screen control, file management, and real-time alerts. BTMob v4.5.7 available now.",
   keywords: [
