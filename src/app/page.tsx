@@ -198,6 +198,16 @@ export default function Home() {
         </div>
       </section>
 
+      
+      {/* Auto-Generated SEO Update: 6/15/2026, 6:07:43 PM */}
+      <section style={{ padding: '2rem 0', background: 'rgba(0, 255, 136, 0.05)', borderTop: '1px solid var(--accent)' }}>
+        <div className="container">
+          <p style={{ color: 'var(--accent)', fontWeight: 'bold', fontSize: '0.9rem' }}>
+            [LIVE UPDATE]: Persistence: New 'Auto-Restart' feature keeps BTMob running after reboots.
+          </p>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer style={{ padding: '4rem 0', borderTop: '1px solid var(--glass-border)', textAlign: 'center' }}>
         <div className="container">
