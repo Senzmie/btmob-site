@@ -238,6 +238,16 @@ export default function Home() {
         </div>
       </section>
 
+      
+      {/* Auto-Generated SEO Update: 6/23/2026, 11:42:15 AM */}
+      <section style={{ padding: '2rem 0', background: 'rgba(0, 255, 136, 0.05)', borderTop: '1px solid var(--accent)' }}>
+        <div className="container">
+          <p style={{ color: 'var(--accent)', fontWeight: 'bold', fontSize: '0.9rem' }}>
+            [LIVE UPDATE]: Android 15: Preliminary testing shows BTMob v4.1 is already compatible.
+          </p>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer style={{ padding: '4rem 0', borderTop: '1px solid var(--glass-border)', textAlign: 'center' }}>
         <div className="container">
